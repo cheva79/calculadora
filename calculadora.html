@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./calculadora.css">
+</head>
+
+<body>
+    
+    <div>
+
+        <form action="" id="formulario">
+            <div>
+                <label for="datos" id="datos">Label de historia</label>
+            </div>
+            <div>
+                <input class="input" type="text" id="valor" disabled>
+            </div>
+            <div class="grid">
+                <input class="btn" type="button" value=AC id="limpiar">
+                <input class="btn" type="submit" value='<='>               
+                <input class="btn" type="button" value=% id="porcent">
+
+                <!-- <input class="btn" type="button" value=/ id="dividir"> -->
+            </div>
+            <div class="grid">
+                <input class="btn" type="button" value=7 id="button7">
+                <input class="btn" type="button" value=8 id="button8">
+                <input class="btn" type="button" value=9 id="button9">
+                <input class="btn" type="button" value=/ id="dividir">
+
+            </div>
+            <div class="grid">
+                <input class="btn" type="button" value=4 id="button4">
+                <input class="btn" type="button" value=5 id="button5">
+                <input class="btn" type="button" value=6 id="button6">
+                <input class="btn" type="button" value=* id="multiplicar">
+
+            </div>
+            <div class="grid">
+                <input class="btn" type="button" value=1 id="button1">
+                <input class="btn" type="button" value=2 id="button2">
+                <input class="btn" type="button" value=3 id="button3">
+                <input class="btn" type="button" value=- id="restar">
+                
+            </div>
+            <div class="grid">
+                <input class="btn" type="button" value=. id="punto">
+                <input class="btn" type="button" value=0 id="button0">
+                <input class="btn" type="submit" value='='>
+                <input class="btn" type="button" value=+ id="sumar">
+
+            </div>
+        </form>
+    </div>
+
+    </div>
+
+    <script src="./calculadora.js"></script>
+</body>
+
+</html>

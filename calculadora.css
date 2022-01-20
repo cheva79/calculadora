@@ -1,0 +1,48 @@
+h1{
+    max-width: 300px;
+}
+
+div{
+    border: 5px hsl(180, 52%, 45%) solid;
+    background-color: hsl(180, 52%, 45%);
+    max-width: 360px;
+    max-height: 500px;
+    margin: 3px;
+    
+}
+
+.grid{
+display: grid;
+grid-template-columns: repeat(4, 80px);
+grid-gap: 2px;
+grid-auto-rows: minmax(50px, 50px);
+}
+
+.input{
+    padding: 10px;
+    font-size: 20px;
+    width: 300px;
+    text-align: end;
+
+}
+
+.btn{
+    margin: px;
+    background-color: lightblue;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: 100px;
+}
+.btn:hover{
+    background-color: darkcyan;
+}
+
+label{
+    text-align: end;
+    display:block;
+    width: 262px;
+    border: 10px solid hsl(180, 52%, 45%);
+    font-size: 10px;
+    font-style: italic;
+}
